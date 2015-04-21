@@ -1,0 +1,147 @@
+<?php
+include ("sys.php");
+resetMenuSelected();
+$Academy="selected";
+$pageTitle="Graduates";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<?php require_once("head.php");?>
+<script type="text/javascript">
+$(document).ready(function(){
+	$(".popImg").colorbox({width:"700px",scrolling:false});
+	$(".popImg").colorbox.resize();
+})
+</script>
+</head>
+<body id="graduatesBody">
+<div id="container">
+	<div id="subContainer">
+		<div id="header">
+			<?php include "nav.php"; ?>
+		</div><!-- end #header -->
+
+		<div id="mainContent">
+			<div id="subContent">
+				<div class="sidebar">
+				</div>
+				<div class="rightContent">
+					<div class="title">Graduates
+					</div>
+					<div class="memberPhotos">
+						<div class="outerCell">
+						
+							<?php
+								$PathGradPic = "pic/academy/graduates/";
+								$PathGrad = "graduates/";
+								$a="";
+								$img="";
+								$personPage = array("alana_martyn.php",
+													"andrea_sheridan.php",
+													"angela_haag.php",
+													"dora_ntaliamis.php",
+													"georgina_davies.php",
+													"hoppy_moira_tobin.php",
+													"jenny_whitehead.php",
+													"jimmy_reid.php",
+													"jim_dimopoulos.php",
+													"jo-anne_crowther.php",
+													"kate_holder.php",
+													"kate_reid.php",
+													"katie_street.php",
+													"lachlan_clarke.php",
+													"luiza_evans.php",
+													"marcus_jerrums.php",
+													"maurice_vasile.php",
+													"megan_carter.php",
+													"natalie_petronio.php",
+													"naz_hamid.php",
+													"noela_basile.php",
+													"sam_martin.php",
+													"serena_papworth.php",
+													"sonia_osborne.php",
+													"sophie_lampel.php",
+													"stacey_olliver.php",
+													"talitha_natt.php",
+													"tracy_jones.php"
+								);
+								$thumb = array("alana_martyn.jpg",
+													"andrea_sheridan.jpg",
+													"angela_haag.jpg",
+													"dora_ntaliamis.jpg",
+													"georgina_davies.jpg",
+													"hoppy_moira_tobin.jpg",
+													"jenny_whitehead.jpg",
+													"jimmy_reid.jpg",
+													"jim_dimopoulos.jpg",
+													"jo-anne_crowther.jpg",
+													"kate_holder.jpg",
+													"kate_reid.jpg",
+													"katie_street.jpg",
+													"lachlan_clarke.jpg",
+													"luiza_evans.jpg",
+													"marcus_jerrums.jpg",
+													"maurice_vasile.jpg",
+													"megan_carter.jpg",
+													"natalie_petronio.jpg",
+													"naz_hamid.jpg",
+													"noela_basile.jpg",
+													"sam_martin.jpg",
+													"serena_papworth.jpg",
+													"sonia_osborne.jpg",
+													"sophie_lampel.jpg",
+													"stacey_olliver.jpg",
+													"talitha_natt.jpg",
+													"tracy_jones.jpg"
+								);
+								$name = array("Alana",
+												"Andrea",
+												"Angela",
+												"Dora",
+												"Georgina",
+												"Hoppy",
+												"Jenny",
+												"Jimmy",
+												"Jim",
+												"Jo-Anne",
+												"Kate",
+												"Kate",
+												"Katie",
+												"Lachlan",
+												"Luiza",
+												"Marcus",
+												"Maurice",
+												"Megan",
+												"Natalie",
+												"Naz",
+												"Noela",
+												"Sam",
+												"Serena",
+												"Sonia",
+												"Sophie",
+												"Stacey",
+												"Talitha",
+												"Tracy"
+								);
+								for($i=0;$i<count($thumb);$i++){
+									$a = '<div class="cell"><a class="popImg" href="'.$PathGrad.$personPage[$i].'"'.'>'.'<img src="'.$PathGradPic.$thumb[$i].'"'.'alt="'.$name[$i].'" /></a>';
+									$img = '<img src=".pic/misc/plus_link_w.png" alt="link" class="plus" />
+								</div>
+								<div class="caption">'.$name[$i].'</div>';
+									$thumb0=$PathGrad.$thumb[$i];
+									echo '<div class="cell"><a class="popImg" href="'.$PathGrad.$personPage[$i].'"'.'>'.'<img src="'.$PathGradPic.$thumb[$i].'"'.'alt="'.$name[$i].'" /></a>
+								<img src="pic/misc/plus_link_w.png" alt="link" class="plus" />
+								</div>
+								<div class="caption">'.$name[$i].'</div>';
+								}
+							?>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

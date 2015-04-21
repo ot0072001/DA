@@ -1,0 +1,44 @@
+<div class="popDialog">
+	<div class="popTobBar">
+	</div>
+	<div class="popTopContent">
+		<div class="image"><img src="pic/academy/graduates/lge_angela_haag.jpg" alt="Angela" width="180px" height="240px"/></div>
+		<div class="name">
+			<div class="title">Angela Haag</div><br/>
+			<div class="intro">
+				<span class="green_text">Qualifications:</span> <br />
+				Certificate IV in Fitness (Donna Aston Fitness Academy)<br />
+				Senior First Aid &amp; CPR certificate 
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div><div class="popBottomContent">
+		<p>
+		<span class="green_text">Interests/Areas of speciality:</span> <br />
+		My specialty is one-on-one personal training. I combine health and nutritional advice to motivate my clients. Helping people to achieve their goals is a feeling of achievement and satisfaction. 
+		</p>
+		<p>
+		<span class="green_text">Why you became a Donna Aston Certified Fitness Trainer:</span> <br />
+		I have followed Donna's principles of health and fitness for some time. I had looked into other personal training courses but was not comfortable in what they had to offer. When the opportunity came up to attend Donna Aston's Fitness Academy I knew it would be run with professionalism and dedication. The availability of a 'mentor' has been an invaluable experience. Donna Aston's personal trainers have been fantastic in providing assistance during training. 
+		</p>
+
+		<p>
+		<span class="green_text">Further Comments:</span> <br />
+		Since attending the Donna Aston Fitness Academy I have also become more aware of my own health. I have enjoyed the challenge and the opportunity of meeting a vast variety of people. 
+		</p>
+		<p>
+		<span class="green_text">Details:</span><br />
+		
+		<strong>Camberwell Genesis:</strong>(03) 9811 1000 <br />
+		<strong>Mobile:</strong> 0400 576 746<br />
+
+		<strong>Email:</strong> <span >haagrod@hotmail.com</span>
+		</p>
+		<div class="donnaSays">
+			<div class="quote">"Angela lives, eats and breathes health and fitness. She keeps her own body in amazing shape and is passionate about helping others achieve their goals. Her empathy towards her clients is a unique and valuable asset and I am thrilled to have her representing the Donna Aston Brand".
+			</div>
+			<div class="print">Donna Aston
+			</div>
+		</div>
+	</div>
+</div>

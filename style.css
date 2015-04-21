@@ -1,0 +1,1208 @@
+body{
+	margin:8px;
+	background-color:#D3D4D6;
+	font-family:Arial, Helvetica, Sans-Serif;
+}
+
+#container{
+	width:870px;
+	background-color:#000000;
+	margin: 0 auto;
+	padding-top:0px;
+	padding-bottom:20px;
+	/*position:relative;*/
+}
+#subContainer{
+	padding-top:20px;
+}
+
+#header{
+	margin-left:25px;
+	/*background-color:#05D5CF;*/
+}
+
+#mainContent{
+	margin:20px 0 0 0;
+}
+/************sidebar for home page***********/
+/*#sidebarHome{
+	
+	width: 147px; 
+	
+	
+	background-color:#FFFFFF;
+}
+*/
+/*#astonExpressBody #sidebar,#academyBody #sidebar,#astonRxBody #sidebar,#iconCirq #sidebar{*/
+.sidebar{
+	display:block;
+	float: left; 
+	padding: 10px;
+	margin:0 0 0 25px;
+	width:214px;
+	background-color:#000000;
+}
+
+#sidebarHome{
+	width: 147px;
+	background-color:#FFFFFF;
+	margin:0;
+}
+
+
+#sidebarHome a{
+	text-decoration:none;
+}
+
+#fitnessImg, #expressImg,#RXprescriptionImg,#academyImg,#cirqImg,#togoImg{
+	margin:10px 0 0 0;
+	display:block;
+	width:147px;
+	height:33px;
+	background:url(pic/home/brand_logos.png) 0 0 no-repeat;
+}
+#expressImg{
+	background-position: 0 -31px;
+	height:29px;
+}
+#RXprescriptionImg{
+	background-position: 0 -60px;
+	height:43px;
+}
+#academyImg{
+	background-position: 0 -103px;
+	height:28px;
+}
+#cirqImg{
+	background-position: 0 -132px;
+	height:108px;
+}
+#togoImg{
+	background-position: 0 -240px;
+	height:43px;
+}
+
+.letterSpanOfSide{
+	display:block;
+	padding:12px 0 12px 0;
+	width:147px;
+	background-color:#FFFFFF;
+	font-size:10px;
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	border-bottom:1px solid #E6DCCD;
+}
+
+#fitness,#express,#RXprescription,#cirq,#togo{
+	text-align:justify;
+}
+
+#fitness{
+	color:#C3CF7A;
+}
+#express{
+	color:#C37E79;
+}
+#RXprescription{
+	color:#DCB348;
+}
+#academy{
+	color:#628395;
+}
+#cirq{
+	color:#48443F;
+}
+#togo{
+	color:#767068;
+}
+
+/*#sidebar img{
+	width:160px;
+	height:120px;
+}*/
+/*
+#homepageBody .sidebar a{
+	position:relative;
+}
+#homepageBody .plus{
+
+	position:absolute;
+	left:138px;
+	top:95px;
+	bottom:0;
+	border:none;
+}
+#expressPluss{
+	top:95px;
+}
+#RXprescriptionPluss{
+	top:95px;
+}
+#academyPluss{
+	top:95px;
+}
+#cirqPluss{
+	top:95px;
+}
+#togoPluss{
+	top:95px;
+}*/
+/**************end sidebar********************/
+#content{
+	margin: 0 0 0 167px;
+}
+.contentDIV{
+	margin:10px 10px 0 0;
+}
+/*#content img{
+	width:600px;
+	height:500px;
+}*/
+#homePic{
+	width:643px;
+}
+#describ{
+	background-color:#D3D4D6;
+	color:#666666;
+	font-size:18px;
+	font-weight:bold;
+	padding: 5px 15px 15px;
+	text-align:justify;
+}
+
+#describ a{
+	color:#333333;
+	text-decoration:none;
+}
+
+#describ a:hover{
+	color:#ABD915;
+}
+
+#blog{
+	min-height:150px;
+	background:#D3D4D6 url(pic/home/fact_fiction_title.png) 100% 0 no-repeat;
+	padding:15px 40px 15px 15px;
+	color:#666666;
+	text-align:justify;
+	font-size:13px;
+}
+
+#blog .title{
+	margin:0px;
+	color:#666666;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+
+#blog  a{
+	text-decoration:none;
+	color:#666666;
+}
+
+#blog a:hover{
+	color:#ABD915;
+}
+
+#blog .postTitle a{
+	font-size:14px;
+	font-weight:bold;
+}
+
+#footer{
+	padding-top:30px;
+	clear:both;
+	background-color:#FFFFFF;
+}
+
+#footer p{
+	margin:0;
+	text-align:center;
+	font-size:10px;
+	font-family:Arial,Helvetica,sans-serif;
+	color:#666666;
+}
+.endDistance{
+	height:20px;
+	clear:both;
+}
+
+/*****************************************HomePage********************************************************/
+#homepageBody #mainContent, #homepageBody #footer{
+	margin-left:25px;
+	margin-right:25px;
+}
+#homepageBody #footer{
+	padding-bottom:20px;
+}
+
+/*****************************************Bio************************************************************/
+#bioBody #footer{
+	background-color:#000000;
+}
+
+#bioBody #footer p{
+	color:#292929;
+}
+
+#bioBody #mainContent{
+	color:#666666;
+	margin-left:25px;
+	margin-right:25px;
+}
+
+#bioBody #mainContent #leftContent{
+	width:350px;
+	float:left;
+}
+
+#bioBody div.mediaInfo{
+	margin-top:10px;
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+#bioBody div.mediaInfo span.desc{
+	vertical-align:top;
+	display:inline-block;
+	width:120px;
+	padding-left:5px;
+}
+
+#bioBody #rightContent{
+	font-size:12px;
+}
+
+#bioBody #rightContent .name, #bioBody #rightContent .designation, #bioBody #rightContent .achievements{
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+}
+
+#bioBody #rightContent .name{
+	font-size:26px;
+}
+
+#bioBody #rightContent .achievements .achievement{
+	display:block;
+}
+
+#bioBody #rightContent .designation, #bioBody #rightContent .info .para{
+	margin-top:20px;
+}
+
+#bioBody #rightContent .donnaConnect{
+	margin:40px 0;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#bioBody #rightContent .publicSpeaking .title{
+	text-transform:uppercase;
+	color:#ABD915;
+	font-size:11px;
+	font-weight:bold;
+}
+
+#bioBody #rightContent .publicSpeaking #ps2{
+	margin-top:20px;
+}
+
+/*****************************************AstonExpress****************************************************/
+#astonExpressBody #headImg{
+	height:578px;
+	background:url(pic/astonfitness/astonexpress/astonexpress_bg.jpg) 0 0 no-repeat;
+}
+.brandLogo{
+	margin:45px 0 0 0;
+	display:block;
+	width:214px;
+	height:38px;
+	background:url(pic/brand_logos_black.png) 0 0 no-repeat;
+}
+.rightContent{
+	margin:0 100px 0 259px;
+	font-weight:bold;
+}
+/*#astonExpressBody #rightContent{
+	margin:0 100px 0 259px;
+	font-weight:bold;
+}*/
+/*#astonExpressBody #rightContent .title{*/
+.title{
+	margin:24px 0 0 0;
+	color:#ABD915;
+	font-size:21px;
+}
+/*#astonExpressBody #rightContent .intro{*/
+.intro{
+	margin:0 0 30px 0;
+	font-size:20px;
+	color:#666666;
+}
+/*#astonExpressBody #rightContent .context{*/
+.context{
+	margin:0;
+	font-size:11px;
+	color:#FFFFFF;
+}
+.subTitle{
+	text-transform:uppercase;
+	color:#ABD915;
+}
+#astonExpressBody #footer{
+	background-color:#000000;
+	color:#666666;
+}
+.booking{
+	padding:400px 10px 10px 650px;
+	width:210px;
+	height:157px;
+	color:#ABD915;
+	font-size:19px;
+	font-weight:bold;
+}
+.booking p{
+	margin:0;
+	padding:0;
+}
+.booking a{
+	text-decoration:none;
+	color:#666666;
+}
+#astonExpressBody .image{
+	position:relative;
+	margin-top:20px;
+}
+#astonExpressBody .image img{
+	position:absolute;
+	top:0;
+	left:-44px;
+}
+#astonExpressBody .endDistance{
+	height:350px;
+}
+
+/*****************************************CIRQ************************************************************/
+#cirqBody #headImg{
+	height:578px;
+	background:url(pic/astonfitness/cirq/cirq_bg.jpg) 0 0 no-repeat;
+}
+#iconCirq{
+	margin-left:60px;
+	margin-top:0;
+	background-position:0 -137px;
+	height:107px;
+	width:115px;
+}
+#cirqBody .sidebar img{
+	margin:16px 0 0 9px;
+}
+/*****************************************Studio************************************************************/
+#studioBody #headImg{
+	height:578px;
+	background:url(pic/astonfitness/studio/studio_bg.jpg) 0 0 no-repeat;
+}
+.greyContext{
+	color:#666666;
+	font-size:15px;
+	font-weight:normal;
+}
+#studioBody .paraBlock{
+	padding-right:100px;
+}
+#studioBody #speak{
+	padding:0;
+}
+#studioBody .booking{
+	padding:400px 0 0 35px;
+}
+#studioBody .image{
+	position:relative;
+	margin-bottom:10px;
+}
+#studioBody .plus{
+	position:absolute;
+	right:26px;
+	bottom:0;
+}
+#studioBody .image a img{
+	border-color:#000000;
+}
+
+/*****************************************Team************************************************************/
+#teamBody #headImg{
+	height:578px;
+	background:url(pic/astonfitness/team/team_bg.jpg) 0 0 no-repeat;
+}
+#teamBody .rightContent{
+	margin-right:30px;
+}
+#teamBody .paraBlock{
+	margin-right:50px;
+}
+#teamBody .cell{
+	width:124px;
+	height:94px;
+}
+/*.memberPhotos th,td{
+	border:5px solid #000000;
+	padding:0;
+}
+.memberPhotos .leftCell{
+	border-left:none;
+}
+.memberPhotos .rightCell{
+	border-right:none;
+}
+.memberPhotos .topCell{
+	border-top:none;
+}
+.memberPhotos .bottomCell{
+	border-bottom:none;
+}*/
+#teamBody .clear{
+	clear:both;
+}
+#teamBody .donnaSays,#testimonialsBody .donnaSays{
+	font-size:12px;
+	margin:20px 10px 0 0;
+	padding:10px 20px 10px 10px;
+	background-color:#AAABAF;
+	border: 1px solid #AAABAF;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#teamBody .quote,#graduatesBody .quote,#testimonialsBody .quote{
+	font-style:italic;
+	color:#5C5C5C;
+}
+#teamBody .print,#graduatesBody .print,#testimonialsBody .print{
+	margin-top:10px;
+	color:#5C5C5C;
+	
+}
+/*****************************************Testimonials*******************************************************/
+#testimonialsBody .memberPhotos{
+	margin-top:30px;
+}
+#testimonialsBody .endDistance{
+	height:300px;
+}
+#testimonialsBody .rightContent{
+	margin-right:70px;
+}
+#testimonialsBody .cell{
+	width:124px;
+	height:164px;
+}
+#testimonialsBody .outerCell{
+	display:inline-block;
+	margin-bottom:20px;
+	zoom:1;
+	*display:inline;
+}
+#testimonialsBody .caption, #graduatesBody .caption{
+	color:#FFFFFF;
+	font-size:11px;
+	text-align:center;
+}
+#testimonialsBody .popDialog .image,#testimonialsBody .popDialog .name{
+	display:inline-block;
+	vertical-align:top;
+}
+#testimonialsBody .popTopContent{
+	margin-left:30px;
+	margin-right:30px;
+}
+#testimonialsBody .popBottomContent{
+	margin-left:30px;
+	margin-right:30px;
+	color:#FFFFFF;
+	font-size:12px;
+	text-align:justify;
+}
+#testimonialsBody .green_text{
+	color:#ABD915;
+}
+#testimonialsBody .name{
+	width:255px;
+}
+#testimonialsBody .sidebar .peterSays{
+	margin-top:50px;
+}
+#testimonialsBody .sidebar .peterSays .quote{
+	color:#ABD915;
+}
+#testimonialsBody .sidebar .peterSays .peter{
+	color:#FFFFFF;
+}
+#testimonialsBody .donnaSays{
+	margin:20px 0 0 0;
+	padding-right:10px;
+}
+/******************************************Team + Testimonials************************************************/
+.cell{
+	position:relative;
+	display:inline-block;
+	/*width:124px;
+	height:94px;*/
+	margin:2px 8px 2px 0;
+	zoom:1;
+	*display:inline;
+}
+.cell img{
+	border-color:#000000;
+}
+.cell img:hover{
+	border-color:#ABD915;
+}
+.plus{
+	position:absolute;
+	right:6px;
+	bottom:4px;
+	z-index:2;
+}
+/*****************************************Academy************************************************************/
+#academyBody #headImg{
+	height:578px;
+	background:url(pic/academy/academy_bg.jpg) 0 0 no-repeat;
+}
+#academyBody .intro{
+	margin-bottom:105px;
+}
+#iconAcademy{
+	background-position:0 -39px;
+	margin:30px 0 55px;
+}
+#subTitleCap{
+	text-transform:capitalize;
+}
+#rxImg2{
+	margin-top:270px;
+}
+.contextBlock{
+	margin-top:35px;
+}
+.paraBlock{
+	margin-top:20px;
+}
+.listFullFilled{
+	/*list-style-position:inside;*/
+	margin:0;
+	padding-left:12px;
+}
+#academyBody .rightContent a{
+	color:#ABD915;
+	text-decoration:none;
+}
+/**********************************************AstonRx****************************************************/
+#astonRxBody #headImg{
+	height:578px;
+	background:url(pic/astonrx/astonRX_bg.jpg) 0 0 no-repeat;
+}
+#iconAstonRx{
+	background-position:0 -80px;
+	height:54px;
+}
+#introAstonRx{
+	margin-bottom:96px;
+}
+#astonRxBody .image{
+
+	margin-top:20px;
+}
+#astonRxBody .image img{
+	
+	margin-top:20px;
+}
+#studioBody .plus{
+	position:absolute;
+	right:26px;
+	bottom:0;
+}
+#studioBody .image a img{
+	border-color:#000000;
+}
+
+/****************************************in the press*****************************************************/
+#inThePressBody #container{
+	background-color:#FFFFFF;
+}
+#inThePressBody .mainImg{
+	padding-top:80px;
+	margin-left:25px;
+	width:826px;
+	height:450px;
+	background:url(pic/donnaaston/in_the_press/itp_bg.jpg) no-repeat right bottom;
+}
+#inThePressBody .subTitle{
+	font-size:18px;
+	font-weight:bold;
+	margin:0;
+	text-transform:none;
+}
+#inThePressBody .context{
+	margin:0;
+	color:#666666;
+	font-weight:bold;
+	width:380px;
+	font-size:18px;
+}
+/*#inThePressBody .press{
+	margin-top:50px;
+}*/
+ #slider {  
+   
+	/* You MUST specify the width and height */  
+	position:relative;  
+	width:780px;  
+	height:220px;  
+	margin:80px auto 0;
+	overflow:hidden;  
+ }  
+ #mask-gallery {
+	
+	overflow:hidden;	
+}
+ 
+ #gallery{
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+	z-index:0;
+	
+	width:3600px;
+	overflow:hidden;
+ }
+ 
+ #gallery li{
+	margin-left:10px;
+	width:120px;
+	float:left;
+ }
+ 
+ #gallery li .magzine, #gallery li .date{
+	color:#000000;
+	font-size:12px;
+	font-weight:bold;
+ }
+ #gallery li .date{
+	color:#ABD915;
+ }
+ #gallery .thumb img{
+	border:none;
+	margin-bottom:5px;
+ }
+ #gallery li a img:hover{
+	border:none;
+ }
+ 
+ #buttons{
+	text-align:center;
+	margin:50px auto 30px;
+ }
+ #buttons a{
+	text-decoration:none;
+	color:#ABD915
+}
+/********************************************popDialog****************************************************/
+.popDialog{
+	padding:4px 10px 20px 10px;
+	background-color:#5C5C5C;
+}
+.popDialog .popTobBar{
+	margin:5px 21px 10px 0;
+	height:20px;
+	background-color:#787878;
+}
+
+/**/
+.popContent div.column{
+	display:inline-block;
+	vertical-align:top;
+}
+/**/
+
+.popDialog .popSideBar{
+	display:block;
+	float: left; 
+	width:230px;
+}
+.popDialog .popSideBar img{
+	margin-bottom:10px;
+	width:222px;
+	height:167px;
+}
+.popDialog .popRightContent{
+	margin:0 20px 0 240px;
+	/*margin:0 20px 0 20px;*/
+	font-weight:bold;
+	width:300px;
+}
+.popDialog .popPara{
+	margin-top:20px;
+}
+.popDialog .intro{
+	color:#999999;
+	/*font-size:15px;*/
+}
+.pohpDialog .clear{
+	clear:both;
+}
+#teamBody .popDialog .subTitle{
+	font-size:21px;
+}
+#teamBody .popDialog .intro{
+	font-size:20px;
+}
+#teamBody .popDialog .popRightContent{
+	width:350px;
+}
+/*******************************************graduates*****************************************************/
+#graduatesBody .memberPhotos{
+	margin-top:75px;
+}
+#graduatesBody .endDistance{
+	height:300px;
+}
+#graduatesBody .rightContent{
+	margin-right:70px;
+}
+#graduatesBody .cell{
+	width:124px;
+	height:164px;
+}
+#graduatesBody .popDialog{
+	font-size:12px;
+	color:#FFFFFF;
+}
+#graduatesBody .popTopContent .image{
+	float:left;
+}
+#graduatesBody .popTopContent .name{
+	margin-left:210px;
+}
+#graduatesBody .outerCell{
+	display:inline-block;
+	margin-bottom:20px;
+	zoom:1;
+	*display:inline;
+}
+#graduatesBody .title{
+	vertical-align:top;
+}
+#graduatesBody .green_text{
+	color:#ABD915;
+	font-size:15px;
+	font-weight:bold;
+}
+#graduatesBody .clear{
+	clear:both;
+}
+#graduatesBody .popBottomContent{
+	margin-top:20px;
+	margin-right:20px;
+}
+#graduatesBody .popDialog .intro{
+	margin-top:20px;
+	font-size:12px;
+	color:#FFFFFF;
+}
+#graduatesBody .popDialog a{
+	text-decoration:none;
+}
+#graduatesBody .donnaSays{
+	margin-top:20px;
+	padding:5px;
+	background-color:#AAABAF;
+	border: 1px solid #AAABAF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+#graduatesBody .quote,#graduatesBody .print{
+	color:#5C5C5C;
+}
+/*******************************************shop online***************************************************/
+#shopOnlineBody  #container{
+	background-color:#D3D4D6;
+}
+#shopOnlineBody  #headImg{
+	margin-left:25px;
+	height:473px;
+	background:url(pic/store/shop_bg.jpg) 0 0 no-repeat;
+}
+#shopOnlineBody  #subContent{
+	margin:0 25px;
+	padding:20px 0px 20px 20px;
+	background-color:#FFFFFF;
+}
+#shopOnlineBody  .shopMenu, #shopOnlineBody .featuredProduct{
+	display:inline-block;
+	background-color:#D3D4D6;
+	width:240px;
+	height:130px;
+	vertical-align:top;
+	padding:10px 10px 10px 15px;
+}
+#shopOnlineBody .featuredProduct{
+	width:470px;
+	margin-left:15px;
+}
+#shopOnlineBody  .shopMenu .title{
+	font-weight:bold;
+	color:#666666;
+	margin:0px 0px 15px 0px;
+}
+#shopOnlineBody  .shopMenu ul
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#shopOnlineBody  .shopMenu li
+{
+	background-image: url(pic/misc/plus_link_w.png);
+	background-repeat: no-repeat;
+	background-position: 0px 3px;
+	padding-left: 14px;
+	font-size:12px;
+	vertical-align:middle;
+}
+#shopOnlineBody  .shopMenu a{
+	text-decoration:none;
+	color:#666666;
+}
+#shopOnlineBody  .shopMenu a:hover{
+	color:#ABD915;
+}
+#shopOnlineBody  #footer{
+	margin:0 25px;
+	padding-bottom:20px;
+}
+/*******************************************contact us****************************************************/
+#contactusBody .container{
+	margin:10px 20px 0;
+	padding-top:10px;
+	padding-bottom:25px;
+	background-color:#FFFFFF;
+}
+#contactusBody .map{
+	float:left;
+	margin:10px 0 10px 20px;
+}
+#contactusBody .container .map .title{
+	margin:12px 0 37px;
+}
+#contactusBody .container .contact{
+	float:left;
+	margin:20px 0 10px 100px;
+}
+#contactusBody .container .contact .intro{
+	margin-bottom:3px;
+}
+#contactusBody .container .contact .sub{
+	color:#666666;
+	text-decoration:underline;
+}
+#contactusBody .container .contact .context{
+	color:#666666;
+}
+#contactusBody .container .contact .context a{
+	color:#ABD915;
+}
+#contactusBody .container .img{
+	margin:20px 0 10px 607px;
+}
+#contactusBody .paraBlock .head{
+	font-weight:bold;
+	font-size:11px;
+	color:#666666;
+}
+/**********************************************enquiry****************************************************/
+#enquiryBody #subContent .sidebar{
+	margin:0;		
+	background-color:#000000;
+}
+#enquiryBody #subContent .subContainer{
+	background-color:#000000;
+}
+#enquiryBody .rightContent{
+	margin-right:30px;
+}
+/*#enquiryBody .title{
+	margin-bottom:10px;
+	margin-left:2px;
+	padding-top:10px;
+	font-size:30px;
+}*/
+#enquiryBody input, select, textarea {
+	padding:5px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	border:solid 1px #fff;
+}
+#enquiryBody select{
+	padding:4px;
+	margin:0;
+}
+#enquiryBody .dsform {
+	background:#000;
+	text-align:left;
+}
+#enquiryBody .dsform th {
+	background:url(components/com_dareferrals/assets/headbg.gif) repeat-x;
+	height:38px;
+	padding:0;
+	margin:0;
+}
+#enquiryBody .dsform td {
+	padding:8px 16px;
+	font-size:12px;
+}
+#enquiryBody .titletable td {
+	padding:15px 0 0 0;
+}
+#enquiryBody .errtable td {
+	padding:5px 15px;
+	text-align:left;
+}
+#enquiryBody .dsform td.flabel,#enquiryBody .dsform td.flabel_verTop {
+	color:#fff;
+	font-weight:bold;
+}
+#enquiryBody .dsform td.flabel-green {
+	color:#fff;
+	font-weight:bold;
+	background:#87A81B;
+	border-bottom:solid 1px #fff;
+	border-top:solid 1px #fff;
+}
+#enquiryBody .dsform td.flabel_verTop{
+	vertical-align:top;
+}
+#enquiryBody .errortxt {
+	font-weight:bold;
+	color:#F00;
+}
+#enquiryBody form label.error {
+	color:#F00;
+	display:block;
+	font-style:italic;
+	margin:0 0 5px 0;
+}
+
+#enquiryBody form input.error, form select.error, form textarea.error {
+	border:dotted 1px #F00;
+}
+#enquiryBody option {
+	margin:5px 0;
+}
+#enquiryBody .errMsg{
+	padding-top:0;
+	padding-left:20px;
+	color:#F00;
+}
+#enquiryBody .phoneErr .errMsg{
+	padding-left:0;
+	padding-right:0;
+}
+#enquiryBody .title{
+	padding:0 15px 0;
+	margin:20px 0 20px 6px;
+}
+/**********************************************claim******************************************************/
+.claimContent{
+	margin:0 30px 0 25px;
+}
+.claimTitle{
+	margin-top:30px;
+	color:#ABD915;
+	font-size:21px;
+	font-weight:bold;
+}
+.claimSubTitleFirst,.claimSubTitleSec,.claimSubTitleThird{
+	margin-top:25px;
+	color:#999999;
+	font-size:20px;
+	font-weight:bold;
+}
+.claimSubTitleSec{
+	margin-top:30px;
+	font-size:18px;
+}
+.claimSubTitleThird{
+	margin-top:20px;
+	font-size:15px;
+}
+.claimContext,.claimList ul li{
+	margin-top:5px;
+	color:#FFFFFF;
+	font-size:12px;
+	/*font-weight:bold;*/
+}
+.claimList ul{
+	margin:0 0 10px 0;
+	padding-left:12px;
+}
+.claimContext .csc{
+	color:#ABD915;
+	text-decoration:none;
+}
+/**********************************************menu*******************************************************/
+.ddsmoothmenu{
+/*font: bold 12px Verdana;*/
+/*background: #414141; /*background of menu bar (default state)*/
+width: 100%;
+padding: 0;
+margin: 0;
+}
+
+.ddsmoothmenu ul{
+z-index:100;
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+/*Top level list items*/
+
+.ddsmoothmenu ul li{
+position: relative;
+display: inline;
+float: left;
+}
+
+
+/*Top level menu link items style*/
+.ddsmoothmenu ul li a{
+text-transform:uppercase;
+display: block;
+/*background: #414141; /*background of menu items (default state)*/
+/*color: #64605D;*/
+color:#666666;
+/*padding: 8px 10px;
+border-right: 1px solid #778;
+color: red;*/
+text-decoration: none;
+font-size: 20px;
+font-weight:bold;
+/*font-family:Arial,Helvetica,sans-serif;*/
+letter-spacing:1.4px;
+}
+
+
+
+.ddsmoothmenu ul li.topmenu a:link,.ddsmoothmenu ul li.topmenu a:visited{
+color: #666666;
+}
+
+.ddsmoothmenu ul li.topmenu a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+/*background: black; */
+color: #ABD915;
+}
+
+.ddsmoothmenu ul li.topmenu a:hover{
+/*background: black; /*background of menu items during onmouseover (hover state)*/
+color: #ABD915;
+}
+
+.ddsmoothmenu a#DonnaAston:link, .ddsmoothmenu a#DonnaAston:visited{
+color:#ffffff;
+}
+.ddsmoothmenu ul li.topmenu a#DonnaAston.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+/*background: black; */
+color: #ABD915;
+}
+
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+	
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{
+position: absolute;
+left: 0;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+}
+
+.ddsmoothmenu ul li.topmenu ul.submenu a:link,.ddsmoothmenu ul li.topmenu ul.submenu a:visited{
+color: black;
+}
+
+.ddsmoothmenu ul li.topmenu ul.submenu a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+/*background: black; */
+color: white;
+}
+
+.ddsmoothmenu ul li.topmenu ul.submenu a:hover{
+/*background: black; /*background of menu items during onmouseover (hover state)*/
+color: #ABD915;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+display: list-item;
+float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{
+top: 0;
+}
+
+/* Sub level menu links style */
+.ddsmoothmenu ul li ul li a{
+/*font: normal 13px Verdana;*/
+font-size:13px;
+font-weight:normal;
+text-transform:capitalize;
+/*width: 160px; /*width of sub menus*/
+width:160px;
+padding: 2px;
+margin: 0;
+/*border-top-width: 0;*/
+/*border-bottom: 1px solid gray;*/
+}
+
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 12px;
+right: 7px;
+}
+
+.rightarrowclass{
+position: absolute;
+top: 6px;
+right: 5px;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{
+position: absolute;
+left: 0;
+top: 0;
+width: 0;
+height: 0;
+background: #ffffff;
+}
+
+
+.toplevelshadow{ 
+  /* for IE */
+  filter:alpha(opacity=40);
+  /* CSS3 standard */
+  opacity:0.4;
+}
+/*end menu*/
